@@ -7,6 +7,7 @@
 }
 
 .base {
+    display: flex;
     margin-bottom: 15px;
     background-color: #d0d3d4;
     border-radius: 4px;
@@ -35,24 +36,31 @@ h1 {
 
 /* Insira o código abaixo */
 
-.container1 {
-    
-}
+
 
 .container2 {
-    
+    justify-content: flex-end;
 }
 
 .container3 {
-   
+   justify-content: center;
 }
 
 .container4 {
-    
+    justify-content: space-between;
 }
 .container5 {
-    
+    justify-content: space-around;
 }
-.container-6 {
-    
+.container6 {
+    justify-content: space-evenly;
 }
+
+.container-exercicioB{
+       flex-direction: column-reverse;
+} 
+
+.container-desafio{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+} 
